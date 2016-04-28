@@ -1,0 +1,688 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chi Tiết Sản Phẩm</title>
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/font-awesome.css" rel="stylesheet" />
+    <link href="styles/common-style.css" rel="stylesheet" />
+    <link href="styles/Fasoi.css" rel="stylesheet" />
+    <link href="styles/bootstrap-multiselect.css" rel="stylesheet" />
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/bootstrap-multiselect.js"></script>
+    <script src="scripts/nicescroll.js"></script>
+    <script src="scripts/Common.js"></script>    
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="col-xs-12">
+                <ul class="header-text float-left">
+                    <li>Language:</li>
+                    <li>VIE</li>
+                    <li>|</li>
+                    <li>ENG</li>
+                    <li class="icon"><i class="fa fa-sort-down"></i></li>
+                </ul>
+                <ul class="header-text float-right">
+                    <li>
+                        <img class="ico_login" src="images/ico_Profile.png" />
+                    </li>
+                    <li class="menu">
+                        <a href="DangKy.html"> Đăng ký</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="javascript:void(0)" class="dropdown dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="title">Đăng nhập</span></a>
+                        <div class="dropdown-menu login-drop">
+                            <span class="color-111">Tài khoản</span>
+                            <div class="clear-5"></div>
+                            <div class="col-xs-12 no-padding element-icon account">
+                                <input class="form-control" placeholder="Nhập tài khoản của bạn" />
+                            </div>
+                            <div class="clear-10"></div>
+                            <span class="color-111">Mật Khẩu</span>
+                            <div class="clear-5"></div>
+                            <div class="col-xs-12 no-padding element-icon password">
+                                <input class="form-control" type="password" placeholder="Nhập mật khẩu" />
+                            </div>
+                            <div class="clear-15"></div>
+                            <span class="color-111 mb-5">Đăng nhập với</span>
+                            <div class="clear-5"></div>
+                            <div class="col-xs-6 no-padding-left">
+                                <button class="form-control social-btn facebook" title="Đăng nhập với Facebook">
+                                    <span class="ico">
+                                        <img src="images/f_ico.PNG" />
+                                    </span>
+                                    <span>
+                                        Facebook
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-xs-6 no-padding-right">
+                                <button class="form-control social-btn google" title="Đăng nhập với Google">
+                                    <span class="ico">
+                                        <img src="images/g_ico.PNG" />
+                                    </span>
+                                    <span>
+                                        Google +
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="clear-5"></div>
+                            <div class="col-xs-12 no-padding">
+                                <span class="mr-5">
+                                    <label>
+                                        <input type="checkbox" class="ace" checked="checked">
+                                        <span class="lbl color-111">&nbsp;&nbsp;Nhớ mật khẩu</span>
+                                    </label>
+                                </span>
+                                <span class="forgot-pass">
+                                    <a href="#">Quên mật khẩu?</a>
+                                </span>
+                            </div>
+                            <div class="clear-10"></div>
+                            <div class="col-xs-12 no-padding">
+                                <button class="form-control btn-black">Đăng nhập</button>
+                            </div>
+                            <div class="clear-10"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear-5"></div>
+        <div class="col-xs-12 menu-bar no-padding">
+            <div class="col-xs-12">
+                <div class="col-md-2 no-padding-left logo">
+                    LOGO
+                </div>
+                <div class="col-md-10 no-padding-right">
+                    <ul class="header-group menu-bar float-right">
+                        <li class="hover active">
+                            <a href="Home.html">
+                                TRANG CHỦ
+                            </a>
+                        </li>
+                        <li class="hover">
+                            <a href="ChiTietSanPham.html">
+                                NAM
+                            </a>
+                        </li>
+                        <li class="hover">
+                            <a href="ChiTietSanPham.html">
+                                NỮ
+                            </a>
+                        </li>
+                        <li class="hover">
+                            <a href="ChiTietSanPham.html">
+                                TRẺ EM
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <label>
+                                    <input type="radio" class="ace radio-black" checked="checked" name="find">
+                                    <span class="lbl">&nbsp;Tất cả</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <label>
+                                    <input type="radio" class="ace radio-black" name="find">
+                                    <span class="lbl">&nbsp;Của shop</span>
+                                </label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                1-200.000VNĐ
+                            </a>
+                            <i class="fa fa-sort-down"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-0"></div>
+            </div>
+        </div>
+        <div class="clear-0"></div>
+    </header>
+    <div class="col-xs-12 line-full"></div>
+    <div class="clear-0"></div>
+    <div class="col-xs-12">
+        <div class="clear-20"></div>
+        <div class="col-xs-12 no-padding bread-cumb">
+            <a href="#">
+                <span>Trang chủ</span>
+            </a>
+            <span><i class="fa fa-angle-right"></i></span>
+            <a href="#">
+                <span>Nam</span>
+            </a>
+            <span><i class="fa fa-angle-right"></i></span>
+            <a href="#">
+                <span>Quần Jean</span>
+            </a>
+            <span><i class="fa fa-angle-right"></i></span>
+            <a href="#">
+                <span class="active">Vintage Neesles-Cut Shorts in Black</span>
+            </a>
+        </div>
+        <div class="clear-20"></div>
+        <div class="col-sm-5 no-padding-left">
+            <div class="col-xs-3 no-padding-left">
+                <div class="col-xs-12 no-padding">
+                    <img src="images/detail-1.png" class="img-responsive" />
+                </div>
+                <div class="clear-div"></div>
+                <div class="col-xs-12 no-padding">
+                    <img src="images/detail-2.png" class="img-responsive" />
+                </div>
+                <div class="clear-div"></div>
+                <div class="col-xs-12 no-padding">
+                    <img src="images/detail-3.png" class="img-responsive" />
+                </div>
+                <div class="clear-div"></div>
+            </div>
+            <div class="col-xs-8 no-padding">
+                <img src="images/detail-big.png" class="img-responsive" />
+            </div>
+        </div>
+        <div class="col-sm-7 no-padding-right">
+            <div class="col-xs-8 no-padding">
+                <div class="col-xs-12 no-padding font-26x product-name">
+                    Vintage Neesles - Cut Shorts in Black
+                </div>
+                <div class="clear-35"></div>
+                <div class="col-xs-12 no-padding font-20x font-bold">
+                    1.899.000 VNĐ
+                </div>
+                <div class="clear-10"></div>
+                <div class="col-xs-12 line-full"></div>
+                <div class="clear-10"></div>
+                <div class="col-xs-12 no-padding">
+                    <div class="col-xs-4 no-padding-left">
+                        <select class="form-control sort-dropdown max-110">
+                            <option value="">Kích cỡ</option>
+                            <option value="1">S</option>
+                            <option value="2">M</option>
+                            <option value="3">XXL</option>
+                            <option value="4">XL</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-4 no-padding-left">                      
+                        <div class="col-xs-12 no-padding max-110 color-group">                     
+                            <button class="form-control sort-dropdown max-110 dropdown dropdown-toggle text-left"data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Mau sac
+                            </button>                            
+                            <div class="dropdown-menu login-drop">
+                                <label class="mr-5" title="màu vàng">
+                                    <input type="checkbox" class="round-check yellow-color" disabled>
+                                    <span class="lbl"></span>                                    
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu cam">
+                                    <input type="checkbox" class="round-check orange-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu xanh nước biển">
+                                    <input type="checkbox" class="round-check aqua-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu tím">
+                                    <input type="checkbox" class="round-check purple-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu xanh">
+                                    <input type="checkbox" class="round-check green-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu hồng">
+                                    <input type="checkbox" class="round-check pink-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu đỏ">
+                                    <input type="checkbox" class="round-check red-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu đen">
+                                    <input type="checkbox" class="round-check black-color disabled">
+                                    <span class="lbl"></span>
+                                </label>
+                                <div class="clear-5"></div>
+                                <label class="mr-5" title="màu trắng">
+                                    <input type="checkbox" class="round-check white-color disabled">
+                                    <span class="lbl"></span>
+                                </label>                   
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-xs-12 no-padding" id="rating">
+                    <div class="panel panel-default white-collapse color-111 no-border-bottom">
+                        <div class="panel-heading animate-collapse" data-toggle="collapse" data-parent="#rating" href="#thongtin"aria-expanded="true">
+                            <span class="font-18x">
+                                Thông tin
+                            </span>
+                        </div>
+                        <div class="panel-collapse collapse in" id="thongtin" aria-expanded="true">
+                            <div class="clear-15"></div>
+                            <div class="col-xs-12 no-padding font-14x font-semiBold">
+                                Giới thiệu sản phẩm
+                            </div>
+                            <div class="clear-0"></div>
+                            <div class="col-xs-12 no-padding font-light">
+                                Trong đêm diễn cuối, chân dài Việt vinh dự trở thành người mở màn cho show thời trang có phong cách trình diễn tươi trẻ, quyến rũ.Sức hấp dẫn của ngành công nghiệp thời trang đã tạo nên một cơn sốt khi mà ngày càng có nhiều người ao ước được làm việc trong lĩnh vực
+                            </div>
+                            <div class="clear-5"></div>
+                            <div class="col-xs-12 no-padding font-14x font-semiBold">
+                                Liên hệ
+                            </div>
+                            <div class="clear-0"></div>
+                            <div class="col-xs-12 no-padding">
+                                51 Lê Đại Hành, Hai Bà Trưng, Hà Nội
+                                <br />
+                                0988 999 999
+                                <br />
+                                (04) 37 888 445
+                            </div>
+                            <div class="clear-10"></div>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="panel panel-default white-collapse color-111">
+                        <div class="panel-heading animate-collapse" data-toggle="collapse" data-parent="#rating" href="#collapse-2"aria-expanded="false">
+                            <span class="font-18x">
+                                <span class="yellow-2 mr-5"><i class="fa fa-star"></i></span>
+                                <span class="red-2 mr-5"><i class="fa fa-star"></i></span>
+                                <span class="blue-2 mr-5"><i class="fa fa-star"></i></span>
+                                <span class="green-2 mr-5"><i class="fa fa-star"></i></span>
+                                <span class="purple-2 mr-5"><i class="fa fa-star"></i></span>
+                            </span>
+                        </div>
+                        <div class="panel-collapse collapse" id="collapse-2" aria-expanded="false">
+                            <div class="clear-15"></div>
+                            <div class="col-xs-12 no-padding font-18x">
+                                <span class="yellow-2">
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                </span>
+                                <span class="font-bold font-18x ml-10 mr-10">5.0</span>
+                                <span class="ml-10 font-14x">Đánh giá - Thái độ phục vụ</span>
+                            </div>
+                            <div class="clear-10"></div>
+                            <div class="col-xs-12 no-padding font-18x">
+                                <span class="red-2">
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-half-empty"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                </span>
+
+                                <span class="font-bold font-18x ml-10 mr-10">3.5</span>
+                                <span class="ml-10 font-14x">Đánh giá - Mẫu mã sản phẩm</span>
+                            </div>
+                            <div class="clear-10"></div>
+                            <div class="col-xs-12 no-padding font-18x">
+                                <span class="blue-2">
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                </span>
+                                <span class="font-bold font-18x ml-10 mr-10">3.0</span>
+                                <span class="ml-10 font-14x">Đánh giá - Thái độ phục vụ</span>
+                            </div>
+                            <div class="clear-10"></div>
+                            <div class="col-xs-12 no-padding font-18x">
+                                <span class="green-2">
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-half-empty"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                </span>
+                                <span class="font-bold font-18x ml-10 mr-10">2.5</span>
+                                <span class="ml-10 font-14x">Đánh giá - Mẫu mã sản phẩm</span>
+                            </div>
+                            <div class="clear-10"></div>
+                            <div class="col-xs-12 no-padding font-18x">
+                                <span class="purple-2">
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                    <span class="mr-5"><i class="fa fa-star-o"></i></span>
+                                </span>
+                                <span class="font-bold font-18x ml-10 mr-10">0.0</span>
+                                <span class="ml-10 font-14x">Đánh giá - Thái độ phục vụ</span>
+                            </div>
+                            <div class="clear-10"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="clear-10"></div>
+                <div class="col-xs-12 no-padding">
+                    <ul class="social">
+                        <li>
+                            <a href="javascript:void(0)" title="facebook">
+                                <span class="social-ico"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" title="facebook">
+                                <span class="social-ico m"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" title="facebook">
+                                <span class="social-ico p"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" title="facebook">
+                                <span class="social-ico u"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" title="facebook">
+                                <span class="social-ico g"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-10"></div>
+            </div>
+            <div class="col-xs-4 no-padding-right">
+                <div class="col-xs-12 no-padding menu-right">
+                    <div class="col-xs-12 header font-semiBold">
+                        CHÍNH SÁCH
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 body no-border-top">
+                        <div class="clear-10"></div>
+                        <div class="col-xs-12 no-padding group-item text-center support">
+                            <img src="images/cs_ico_3.png" />
+                            <div class="clear-5"></div>
+                            <div class="col-xs-12 color-c2c2">HỖ TRỢ ĐỔI TRẢ</div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12">
+                            <div class="col-xs-12 dash-line-full"></div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12 no-padding group-item text-center support">
+                            <img src="images/cs_ico_1.png" />
+                            <div class="clear-0"></div>
+                            <div class="col-xs-12 color-c2c2">VẬN CHUYỂN</div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12">
+                            <div class="col-xs-12 dash-line-full"></div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12 no-padding group-item text-center">
+                            <img src="images/cs_ico_2.png" />
+                            <div class="clear-0"></div>
+                            <div class="col-xs-12 color-c2c2">THANH TOÁN</div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12">
+                            <div class="col-xs-12 dash-line-full"></div>
+                        </div>
+                        <div class="clear-5"></div>
+                        <div class="col-xs-12 no-padding group-item text-center support">
+                            <img src="images/cs_ico_4.png" />
+                            <div class="clear-0"></div>
+                            <div class="col-xs-12 color-c2c2">BẢO HÀNH</div>
+                        </div>
+                        <div class="clear-10"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear-0"></div>
+        </div>
+        <div class="clear-30"></div>
+        <div class="col-xs-12 line-full"></div>
+        <div class="clear-10"></div>
+        <div class="col-xs-12 no-padding hot-product">
+            <div class="col-xs-12 no-padding font-18x font-semiBold">
+                SẢN PHẨM CÙNG SHOP
+                <a href="#" class="float-right slide_btn next" title="Tiếp tục">
+                    <span></span>
+                </a>
+                <a href="#" class="float-right slide_btn back disabled" title="Quay lại">
+                    <span></span>
+                </a>
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12 no-padding">
+                <div class="pecent-20 no-padding-left">
+                    <img src="images/product_1.png" class="image-reponsive" />
+                    <div class="clear-5"></div>
+                    <span class="product-title">
+                        Jean Zara -
+                    </span>
+                    <span class="product-code">8934</span>
+                    <div class="clear-5"></div>
+                    <span class="group-color">
+                        <span class="color cl-1"></span>
+                        <span class="color cl-2"></span>
+                        <span class="color cl-3"></span>
+                    </span>
+                    <div class="clear-5"></div>
+                    <spn class="product-price">
+                        1.200.000 VNĐ
+                    </spn>
+                </div>
+                <div class="pecent-20 no-padding-left">
+                    <img src="images/product_2.png" class="image-reponsive" />
+                    <div class="clear-5"></div>
+                    <span class="product-title">
+                        Jean Zara -
+                    </span>
+                    <span class="product-code">8934</span>
+                    <div class="clear-5"></div>
+                    <span class="group-color">
+                        <span class="color cl-4"></span>
+                        <span class="color cl-5"></span>
+                        <span class="color cl-6"></span>
+                    </span>
+                    <div class="clear-5"></div>
+                    <spn class="product-price">
+                        1.200.000 VNĐ
+                    </spn>
+                </div>
+                <div class="pecent-20 no-padding-left">
+                    <img src="images/product_3.png" class="image-reponsive" />
+                    <div class="clear-5"></div>
+                    <span class="product-title">
+                        Jean Zara -
+                    </span>
+                    <span class="product-code">8934</span>
+                    <div class="clear-5"></div>
+                    <span class="group-color">
+                        <span class="color cl-7"></span>
+                        <span class="color cl-8"></span>
+                        <span class="color cl-9"></span>
+                    </span>
+                    <div class="clear-5"></div>
+                    <spn class="product-price">
+                        1.200.000 VNĐ
+                    </spn>
+                </div>
+                <div class="pecent-20 no-padding-left">
+                    <img src="images/product_4.png" class="image-reponsive" />
+                    <div class="clear-5"></div>
+                    <span class="product-title">
+                        Jean Zara -
+                    </span>
+                    <span class="product-code">8934</span>
+                    <div class="clear-5"></div>
+                    <span class="group-color">
+                        <span class="color cl-10"></span>
+                        <span class="color cl-11"></span>
+                        <span class="color cl-12"></span>
+                    </span>
+                    <div class="clear-5"></div>
+                    <spn class="product-price">
+                        1.200.000 VNĐ
+                    </spn>
+                </div>
+                <div class="pecent-20 no-padding-left">
+                    <img src="images/product_5.png" class="image-reponsive" />
+                    <div class="clear-5"></div>
+                    <span class="product-title">
+                        Jean Zara -
+                    </span>
+                    <span class="product-code">8934</span>
+                    <div class="clear-5"></div>
+                    <span class="group-color">
+                        <span class="color cl-13"></span>
+                        <span class="color cl-14"></span>
+                        <span class="color cl-15"></span>
+                    </span>
+                    <div class="clear-5"></div>
+                    <spn class="product-price">
+                        1.200.000 VNĐ
+                    </spn>
+                </div>
+            </div>
+            <div class="clear-20"></div>
+        </div>
+        <div class="clear-15"></div>
+        <div class="col-xs-12 line-full"></div>
+        <div class="clear-15"></div>
+        <div class="col-xs-12 no-padding comment">
+            <div class="col-xs-12 no-padding font-18x font-semiBold">
+                BÌNH LUẬN
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12 no-padding-right post-comment">
+                <div class="col-xs-12 no-padding-right">
+                    <span class="col-xs-2 no-padding avatar max-40">
+                        <img src="images/avatar.PNG" />
+                    </span>
+                    <span class="col-xs-10">
+                        <textarea class="form-control"></textarea>
+                        <br />
+                        <button class="form-control comment float-right">Chia sẻ</button>
+                    </span>
+                </div>
+            </div>
+            <div class="clear-40"></div>
+            <div class="col-xs-12 no-padding-right content-comment">
+                <div class="col-xs-12 no-padding-right">
+                    <span class="col-xs-2 no-padding avatar max-30">
+                        <img src="images/avatar.PNG" />
+                    </span>
+                    <span class="col-xs-10">
+                        <span class="user-name mb-5">
+                            Vũ Xuân Hiếu
+                        </span>
+                        <br />
+                        <span class="content">
+                            Trong đêm diễn cuối, chân dài Việt vinh dự trở thành người mở màn cho show thời trang có phong cách trình diễn tươi trẻ, quyến rũ.Sức hấp dẫn của ngành công nghiệp thời trang đã tạo nên một cơn sốt khi mà ngày càng có nhiều người ao ước được làm việc trong lĩnh vực
+                        </span>
+                        <br />
+                        <label class="clear-5 mb-20"></label>
+                        <a href="javscript:void(0)" class="like">
+                            <span>Thích</span>
+                        </a>
+                        <span>|</span>
+                        <a href="javscript:void(0)" class="comment">
+                            <span>Bình luận</span>
+                        </a>
+                        <br />
+                        <br />
+                        <div class="line-full"></div>
+                    </span>
+                </div>
+            </div>
+            <div class="clear-15"></div>
+            <div class="col-xs-12 no-padding-right content-comment">
+                <div class="col-xs-12 no-padding-right">
+                    <span class="col-xs-2 no-padding avatar max-30">
+                        <img src="images/avatar.PNG" />
+                    </span>
+                    <span class="col-xs-10">
+                        <span class="user-name mb-5">
+                            Vũ Xuân Hiếu
+                        </span>
+                        <br />
+                        <span class="content">
+                            Trong đêm diễn cuối, chân dài Việt vinh dự trở thành người mở màn cho show thời trang có phong cách trình diễn tươi trẻ, quyến rũ.Sức hấp dẫn của ngành công nghiệp thời trang đã tạo nên một cơn sốt khi mà ngày càng có nhiều người ao ước được làm việc trong lĩnh vực
+                        </span>
+                        <br />
+                        <label class="clear-5 mb-20"></label>
+                        <a href="javscript:void(0)" class="like">
+                            <span>Thích</span>
+                        </a>
+                        <span>|</span>
+                        <a href="javscript:void(0)" class="comment">
+                            <span>Bình luận</span>
+                        </a>
+                        <br />
+                        <br />
+                    </span>
+                </div>
+            </div>
+            <div class="clear-15"></div>
+        </div>
+        <div class="clear-10"></div>
+    </div>
+    <div class="clear-5"></div>
+    <footer>
+        <div class="container no-padding">
+            <ul class="float-right mt-10">
+                <li>Phản Hồi</li>
+                <li>|</li>
+                <li>Thông Tin</li>
+                <li>|</li>
+                <li>Chính Sách</li>
+                <li>|</li>
+                <li>Quy Định</li>
+                <li>|</li>
+                <li>Copyright ©2015 </li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.collapse.in').prev('.panel-heading').addClass('active');
+            $('.white-collapse')
+              .on('show.bs.collapse', function (a) {
+                  $(a.target).prev('.panel-heading').addClass('active');
+              })
+              .on('hide.bs.collapse', function (a) {
+                  $(a.target).prev('.panel-heading').removeClass('active');
+              });
+            $('#example-getting-started').multiselect();
+        });
+    </script>
+</body>
+</html>

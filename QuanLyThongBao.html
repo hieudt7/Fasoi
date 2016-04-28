@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quản Lý Thông Báo</title>
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/font-awesome.css" rel="stylesheet" />
+    <link href="styles/common-style.css" rel="stylesheet" />
+    <link href="styles/Fasoi_user.css" rel="stylesheet" />
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/nicescroll.js"></script>
+    <script src="scripts/Common.js"></script>
+</head>
+<body>
+    <header class="cms_header">
+        <div class="col-xs-12 no-padding">
+            <div class="col-xs-2 no-padding logo">
+                <span>LOGO</span>
+            </div>
+            <div class="col-xs-10 menu">
+                <div class="col-xs-3 mt-25">
+                    <a href="#" title="menu">
+                        <span class="menu-icon"></span>
+                    </a>
+                </div>
+                <div class="col-xs-9">
+                    <ul class="info float-right">
+                        <li class="pt-20 email">
+                            <a href="#">
+                                <span>
+                                    <img src="images/email.png" />
+                                </span>
+                                <div class="notice">
+                                    50
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="font-16x color-ca">
+                                |
+                            </span>
+                        </li>
+                        <li class="no-padding-top mt-10">
+                            <span class="mr-15">
+                                <img src="images/avatar_2.png" class="round-avatar" />
+                            </span>
+                            <span class="font-16x blue-link">
+                                xin chào
+                            </span>
+                            <span class="font-16x name semi-bold mr-5">
+                                NguyenTrong
+                            </span>
+                            <span>
+                                <a href="#" class="color-ca">
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-div"></div>
+            </div>
+        </div>
+    </header>
+    <div class="col-xs-12 no-padding">
+        <div class="col-xs-2 no-padding menu-left">
+            <div class="clear-10"></div>
+            <div class="col-xs-12 text-center">
+                <img src="images/dashBoard.png" class="max-90" />
+                <div class="clear-0"></div>
+                <span class="dashboard-text font-22x semi-bold">
+                    DASHBOARD
+                </span>
+            </div>
+            <div class="clear-30"></div>
+            <div class="col-xs-12 no-padding sub-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#" class="semi-bold font-16x">
+                            <span class="ico menu-1"></span>
+                            <span>
+                                Cập nhật thông tin
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="semi-bold font-16x">
+                            <span class="ico menu-2"></span>
+                            <span>
+                                Quản lý sản phẩm
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="semi-bold font-16x">
+                            <span class="ico menu-3"></span>
+                            <span>
+                                Thống kê
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="semi-bold font-16x">
+                            <span class="ico menu-4"></span>
+                            <span>
+                                Quản lý quảng cáo
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="semi-bold font-16x">
+                            <span class="ico menu-5"></span>
+                            <span>
+                                Thông báo
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear-10"></div>
+        </div>
+        <div class="col-xs-10 no-padding content-right">
+            <div class="col-xs-12 menu-right">
+                <div class="clear-10"></div>
+                <div class="col-xs-12">
+                    <div class="col-xs-12 no-padding">
+                        <span>
+                            <a href="#" class="breadCumb">Trang chủ</a>
+                        </span>
+                        <span class="color-b8 mr-5 ml-5">
+                            >
+                        </span>
+                        <span>
+                            <a href="#" class="breadCumb">Quản lý sản phẩm</a>
+                        </span>
+                    </div>
+                    <div class="clear-10"></div>
+                    <div class="col-xs-12 content-group">                     
+                        <div class="col-xs-9 no-padding search-black float-right">
+                            <input class="form-control max-345 float-right" placeholder="Tìm kiếm..."/>
+                        </div>
+                        <div class="clear-25"></div>
+                        <div class="col-xs-12 no-padding">
+                            <table class="table-no-border not-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>NGƯỜI GỬI</th>
+                                        <th>THỜI GIAN GỬI</th>
+                                        <th>NGƯỜI NHẬN</th>
+                                        <th>NỘI DUNG</th>
+                                        <th>TÌNH TRẠNG</th>
+                                        <th>THAO TÁC</th>                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>                                       
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>                                        
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            05
+                                        </td>
+                                        <td class="semi-bold">
+                                            Nguyễn Xuân Hiếu
+                                        </td>
+                                        <td>18:30</td>
+                                        <td class="semi-bold">Phan Văn Hiệp</td>
+                                        <td>Tranh thủ cuối tuần, nhiều người kéo lên Hà ...</td>
+                                        <td>Đã xem</td>
+                                        <td>
+                                            <a href="#" class="remove" title="Xóa">
+                                                <span>Xóa</span>
+                                            </a>
+                                        </td>
+                                    </tr>                                 
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="clear-20"></div>
+                        <div class="col-xs-12 no-padding">
+                            <ul class="pagging float-right">
+                                <li>
+                                    <a href="#" title="Trang trước">
+                                        <span><i class="fa fa-angle-double-left font-24x"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="active">
+                                        <span>1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>2</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>3</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>4</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>5</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>...</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>50</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Trang sau">
+                                        <span><i class="fa fa-angle-double-right font-24x"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+            </div>
+            <div class="clear-0"></div>
+            <div class="footer col-xs-12 mt-10">
+                <ul class="float-right mt-20">
+                    <li>Phản Hồi</li>
+                    <li>|</li>
+                    <li>Thông Tin</li>
+                    <li>|</li>
+                    <li>Chính Sách</li>
+                    <li>|</li>
+                    <li>Quy Định</li>
+                    <li>|</li>
+                    <li>Copyright ©2015 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(window).resize(function () {
+            var boxImage = $('.content-right').height();
+            var intViewportWidth = window.innerWidth;
+            $('.menu-left').css('height', boxImage + 10);
+            $('.menu-right').css('height', boxImage - 60);
+        });
+        $(function () {
+            var boxImage = $('.content-right').height();
+            var intViewportWidth = window.innerWidth;
+            $('.menu-left').css('height', boxImage+10);
+            $('.menu-right').css('height', boxImage - 60);
+        });
+    </script>
+
+</body>
+</html>
